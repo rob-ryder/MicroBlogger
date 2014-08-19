@@ -22,4 +22,4 @@ def secure_token
   end
 end
 
-MicroBlogger::Application.config.secret_key_base = secure_token
+MicroBlogger::Application.config.secret_token = secure_token
