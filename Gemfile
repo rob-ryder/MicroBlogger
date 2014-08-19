@@ -52,3 +52,6 @@ gem 'jbuilder', '1.0.2'
 
 # To use debugger
 # gem 'debugger'
+
+# Bootstrap
+gem 'bootstrap-sass', '2.3.2.0'
