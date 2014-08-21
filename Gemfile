@@ -3,6 +3,8 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.17'
 
+gem 'strong_parameters', '0.2.3'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
