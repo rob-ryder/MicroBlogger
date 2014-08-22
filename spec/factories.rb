@@ -8,4 +8,8 @@ FactoryGirl.define do
       admin true
     end
   end
+  factory :micropost do
+    sequence(:content)  { |n| "Lorem ipsum \##{n}" }
+    user
+  end
 end
